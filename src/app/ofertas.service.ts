@@ -1,5 +1,6 @@
 import { Oferta } from './shared/oferta.model'
 import { reject } from 'q';
+import { resolve } from 'dns';
 
 
 export class OfertasService {
@@ -46,12 +47,12 @@ export class OfertasService {
             valor: 31.90,
             destaque: true,
             imagens: [
-                { url: "/assets/ofertas/3/img1.jpg" },
-                { url: "/assets/ofertas/3/img2.jpg" },
-                { url: "/assets/ofertas/3/img3.jpg" },
-                { url: "/assets/ofertas/3/img4.jpg" },
-                { url: "/assets/ofertas/3/img5.jpg" },
-                { url: "/assets/ofertas/3/img6.jpg" }
+                { url: "/assets/ofertas/4/img1.jpg" },
+                { url: "/assets/ofertas/4/img2.jpg" },
+                { url: "/assets/ofertas/4/img3.jpg" },
+                { url: "/assets/ofertas/4/img4.jpg" },
+                { url: "/assets/ofertas/4/img5.jpg" },
+                { url: "/assets/ofertas/4/img6.jpg" }
             ]
         }
     ]
@@ -63,12 +64,23 @@ export class OfertasService {
     public getOfertas2(): Promise<Oferta[]> {
         return new Promise((resolve, reject) => {
             //algum tipo de processamento que retorne resolve ou reject
-            let deu_certo = false
+            let deu_certo = true
             if (deu_certo) {
-                resolve(this.ofertas)
+                setTimeout(() => resolve(this.ofertas),3000)
+                
             }else {
                 reject({codigo_erro: 404, messagem_erro: 'Servidor não encontrado CARAI'})
             }
+        })
+        .then(( ofertas: Oferta[]) =>{
+            console.log("segundo then")
+            return new Promise ((resolve2, reject2) => {
+                setTimeout(() => { resolve2( ofertas )}, 3000)
+            })
+        })
+        .then(( ofertas: Oferta[] ) => {
+            console.log('terceiro then')
+            return ofertas
         })
     }
 }

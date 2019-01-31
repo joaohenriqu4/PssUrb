@@ -1,0 +1,50 @@
+[
+    {
+        "idPergunta": 1,
+        "pergunta": "Testabdi"
+    },
+    {
+        "idPergunta": 2,
+        "pergunta": "Quem descobriu a Amerca?"
+    },
+    {
+        "idPergunta": 3,
+        "pergunta": "Quantos Hidrogênios existe na molécula da água?"
+    },
+    {
+        "idPergunta": 4,
+        "pergunta": "A soma do quadrado dos catetos é?"
+    },
+    {
+        "idPergunta": 5,
+        "pergunta": "Qual o seu nome?"
+    },
+    {
+        "idPergunta": 6,
+        "pergunta": "Quantos anos você tem?"
+    },
+    {
+        "idPergunta": 7,
+        "pergunta": "Você usa óculos?"
+    },
+    {
+        "idPergunta": 8,
+        "pergunta": "Qual sua altura?"
+    },
+    {
+        "idPergunta": 9,
+        "pergunta": "Qual sua cor preferida"
+    },
+    {
+        "idPergunta": 10,
+        "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?"
+    },
+    {
+        "idPergunta": 11,
+        "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?"
+    },
+    {
+        "idPergunta": 12,
+        "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?"
+    }
+]

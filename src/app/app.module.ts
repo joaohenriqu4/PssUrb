@@ -12,6 +12,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { DiversaoComponent } from './diversao/diversao.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { from } from 'rxjs';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { from } from 'rxjs';
     HomeComponent,
     RodapeComponent,
     DiversaoComponent,
-    RestaurantesComponent
+    RestaurantesComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

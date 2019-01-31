@@ -1,37 +1,39 @@
 <div class="container">
   <div class="card">
-    <div class="card-body">
-      <div class="col-md-25">
-        <form perguntas #formulario="ngForm">
-        <div class="card-header">
-          {{formulario}}
+    <div class="col-md-25">
+      <div *ngFor="let pergunta of perguntas">
+        <div class="card-header" class="text-center">
+          <h3>{{ pergunta.pergunta }}</h3>
+          <br>
         </div>
         <ul class="list-group list-group-flush">
           <div class="text-center">
             <li class="list-group-item">
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <input type="radio" id="customRadioInline1" [name]="pergunta.radio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">muito ruim</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <input type="radio" id="customRadioInline2" [name]="pergunta.radio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">ruim</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                <input type="radio" id="customRadioInline3" [name]="pergunta.radio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline3">medio</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                <input type="radio" id="customRadioInline4" [name]="pergunta.radio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline4">bom</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+                <input type="radio" id="customRadioInline5" [name]="pergunta.radio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline5">muito bom</label>
               </div>
             </li>
           </div>
         </ul>
+        <ul class="list-group list-group-flush"></ul>
+        <br>
       </div>
     </div>
   </div>

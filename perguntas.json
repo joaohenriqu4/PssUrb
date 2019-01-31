@@ -1,50 +1,64 @@
-[
-    {
-        "idPergunta": 1,
-        "pergunta": "Testabdi"
-    },
-    {
-        "idPergunta": 2,
-        "pergunta": "Quem descobriu a Amerca?"
-    },
-    {
-        "idPergunta": 3,
-        "pergunta": "Quantos Hidrogênios existe na molécula da água?"
-    },
-    {
-        "idPergunta": 4,
-        "pergunta": "A soma do quadrado dos catetos é?"
-    },
-    {
-        "idPergunta": 5,
-        "pergunta": "Qual o seu nome?"
-    },
-    {
-        "idPergunta": 6,
-        "pergunta": "Quantos anos você tem?"
-    },
-    {
-        "idPergunta": 7,
-        "pergunta": "Você usa óculos?"
-    },
-    {
-        "idPergunta": 8,
-        "pergunta": "Qual sua altura?"
-    },
-    {
-        "idPergunta": 9,
-        "pergunta": "Qual sua cor preferida"
-    },
-    {
-        "idPergunta": 10,
-        "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?"
-    },
-    {
-        "idPergunta": 11,
-        "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?"
-    },
-    {
-        "idPergunta": 12,
-        "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?"
-    }
-]
+{
+    "perguntas": [
+        {
+            "idPergunta": 1,
+            "pergunta": "Testabdi",
+            "radio": "idpergunta1"
+        },
+        {
+            "idPergunta": 2,
+            "pergunta": "Quem descobriu a Amerca?",
+            "radio": "idpergunta2"
+        },
+        {
+            "idPergunta": 3,
+            "pergunta": "Quantos Hidrogênios existe na molécula da água?",
+            "radio": "idpergunta3"
+        },
+        {
+            "idPergunta": 4,
+            "pergunta": "A soma do quadrado dos catetos é?",
+            "radio": "idpergunta4"
+        },
+        {
+            "idPergunta": 5,
+            "pergunta": "Qual o seu nome?",
+            "radio": "idpergunta5"
+        },
+        {
+            "idPergunta": 6,
+            "pergunta": "Quantos anos você tem?",
+            "radio": "idpergunta6"
+        },
+        {
+            "idPergunta": 7,
+            "pergunta": "Você usa óculos?",
+            "radio": "idpergunta7"
+        },
+        {
+            "idPergunta": 8,
+            "pergunta": "Qual sua altura?",
+            "radio": "idpergunta8"
+        },
+        {
+            "idPergunta": 9,
+            "pergunta": "Qual sua cor preferida",
+            "radio": "idpergunta9"
+        },
+        {
+            "idPergunta": 10,
+            "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?",
+            "radio": "idpergunta10"
+        },
+        {
+            "idPergunta": 11,
+            "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?",
+            "radio": "idpergunta11"
+        },
+        {
+            "idPergunta": 12,
+            "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?",
+            "radio": "idpergunta12"
+        }
+    ]
+}

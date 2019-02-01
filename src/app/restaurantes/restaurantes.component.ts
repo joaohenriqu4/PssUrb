@@ -22,7 +22,6 @@ export class RestaurantesComponent implements OnInit {
         this.ofertas = ofertas
       })
       .catch((param: any) => {
-        console.log(param)
       })
       
   }

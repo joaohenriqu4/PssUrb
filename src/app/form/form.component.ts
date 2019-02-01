@@ -21,7 +21,6 @@ export class FormComponent implements OnInit {
       this.perguntas = perguntas
     })
     .catch((param: any) =>{
-      console.log(param)
     })
   }
 

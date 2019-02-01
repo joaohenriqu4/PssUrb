@@ -19,11 +19,9 @@ export class HomeComponent implements OnInit {
     
     this.ofertasService.getOfertas()
       .then((ofertas: Oferta[]) => {
-        console.log('a função resolve() ')
         this.ofertas = ofertas
       })
       .catch((param: any) => {
-        console.log(param)
       })
 
   }

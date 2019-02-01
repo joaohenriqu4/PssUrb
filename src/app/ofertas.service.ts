@@ -31,7 +31,6 @@ export class OfertasService {
     return new Promise((resolve, reject) => {
       this.http.get(`http://localhost:3000/ofertas?categoria=${categoria}`).subscribe((result) => {
         resolve(result);
-        console.log(result)
       }, (error) => {
         reject(error)
       });

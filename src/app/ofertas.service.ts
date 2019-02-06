@@ -41,7 +41,7 @@ export class OfertasService {
   //---------------PROJ BIDWEB---------------//
   public getPerguntas() {
     return new Promise((resolve, reject) => {
-      this.http.get(`${URL_API}ofertas`).subscribe((result) => {
+      this.http.get(`${URL_API}perguntas`).subscribe((result) => {
         resolve(result);
       }, (error) => {
         reject(error);

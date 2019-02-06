@@ -13,6 +13,9 @@ import { DiversaoComponent } from './diversao/diversao.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { from } from 'rxjs';
 import { FormComponent } from './form/form.component';
+import { OfertaComponent } from './oferta/oferta.component';
+import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
+import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FormComponent } from './form/form.component';
     RodapeComponent,
     DiversaoComponent,
     RestaurantesComponent,
-    FormComponent
+    FormComponent,
+    OfertaComponent,
+    ComoUsarComponent,
+    OndeFicaComponent
   ],
   imports: [
     BrowserModule,

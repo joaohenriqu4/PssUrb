@@ -5,16 +5,15 @@
     <h5 class="text-center">Conheça as melhores ofertas de restaurantes:</h5>
   </div>
 
-  <hr />
   <div *ngFor="let oferta of ofertas">
     <div class="row">
       <div class="col-md-4">
-        <img [src]="oferta.imagens[0].url" class="img-fluid"/>
+        <img [src]="oferta.imagens[0].url" class="img-fluid" />
       </div>
 
       <div class="col-md-8">
         <div class="row">
-          <h4>{{oferta.titulo}}</h4>
+          <h4>{{ oferta.titulo }}</h4>
         </div>
 
         <div class="row">
@@ -30,12 +29,13 @@
         </div>
 
         <div class="row">
-          <button class="btn btn-outline-success">Ver oferta</button>
-        </div>>
+          <button [routerLink]="['/oferta', oferta.id]" class="btn btn-outline-success">Ver oferta</button>
+        </div>
       </div>
     </div>
+
+    <hr />
   </div>
-  <hr />
 
 
 </div>

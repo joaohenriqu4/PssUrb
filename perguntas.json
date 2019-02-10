@@ -3,62 +3,254 @@
         {
             "idPergunta": 1,
             "pergunta": "Testabdi",
-            "radio": "idpergunta1"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 2,
             "pergunta": "Quem descobriu a Amerca?",
-            "radio": "idpergunta2"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 3,
             "pergunta": "Quantos Hidrogênios existe na molécula da água?",
-            "radio": "idpergunta3"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 4,
             "pergunta": "A soma do quadrado dos catetos é?",
-            "radio": "idpergunta4"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 5,
             "pergunta": "Qual o seu nome?",
-            "radio": "idpergunta5"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 6,
             "pergunta": "Quantos anos você tem?",
-            "radio": "idpergunta6"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 7,
             "pergunta": "Você usa óculos?",
-            "radio": "idpergunta7"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 8,
             "pergunta": "Qual sua altura?",
-            "radio": "idpergunta8"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 9,
             "pergunta": "Qual sua cor preferida",
-            "radio": "idpergunta9"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 10,
             "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?",
-            "radio": "idpergunta10"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 11,
             "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?",
-            "radio": "idpergunta11"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         },
         {
             "idPergunta": 12,
             "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?",
-            "radio": "idpergunta12"
+            "radio": [
+                {
+                    "RDPergunta": "Muito ruim"
+                },
+                {
+                    "RDPergunta": "Ruim"
+                },
+                {
+                    "RDPergunta": "Medio"
+                },
+                {
+                    "RDPergunta": "Bom"
+                },
+                {
+                    "RDPergunta": "Muito Bom"
+                }
+            ]
         }
     ]
 }

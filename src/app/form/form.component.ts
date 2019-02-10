@@ -12,13 +12,18 @@ export class FormComponent implements OnInit {
 
   public perguntas: Pergunta[]
 
+  frameworks = ['Muito Ruim','Ruim','Medio','Bom','Muito Bom'];
+
   constructor(private ofertasService: OfertasService) { }
 
   ngOnInit() {
 
+    this.frameworks = null
+
     this.ofertasService.getPerguntas()
     .then((perguntas: Pergunta[]) =>{
       this.perguntas = perguntas
+      console.log()
     })
     .catch((param: any) =>{
     })

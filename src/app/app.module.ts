@@ -18,6 +18,7 @@ import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
+import { GrupoPerguntasComponent } from './grupo-perguntas/grupo-perguntas.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
     OfertaComponent,
     ComoUsarComponent,
     OndeFicaComponent,
-    OrdemCompraComponent
+    OrdemCompraComponent,
+    GrupoPerguntasComponent
   ],
   imports: [
     BrowserModule,

@@ -1,254 +1,75 @@
 {
-    "perguntas": [
+    "grupodeperguntas": [
         {
-            "idPergunta": 1,
-            "pergunta": "Testabdi",
-            "radio": [
+            "idGrupoDePergunta": 1,
+            "nome": "Pessoal",
+            "descricao": "Grupo de perguntas pessoais",
+            "perguntas": [
                 {
-                    "RDPergunta": "Muito ruim"
+                    "idPergunta": 5,
+                    "pergunta": "Qual o seu nome?"
                 },
                 {
-                    "RDPergunta": "Ruim"
+                    "idPergunta": 6,
+                    "pergunta": "Quantos anos você tem?"
                 },
                 {
-                    "RDPergunta": "Medio"
+                    "idPergunta": 7,
+                    "pergunta": "Você usa óculos?"
                 },
                 {
-                    "RDPergunta": "Bom"
+                    "idPergunta": 8,
+                    "pergunta": "Qual sua altura?"
                 },
                 {
-                    "RDPergunta": "Muito Bom"
+                    "idPergunta": 9,
+                    "pergunta": "Qual sua cor preferida"
                 }
             ]
         },
         {
-            "idPergunta": 2,
-            "pergunta": "Quem descobriu a Amerca?",
-            "radio": [
+            "idGrupoDePergunta": 2,
+            "nome": "Conhecimento Gerais",
+            "descricao": "Grupo de perguntas sobre conhecimento gerais",
+            "perguntas": [
                 {
-                    "RDPergunta": "Muito ruim"
+                    "idPergunta": 1,
+                    "pergunta": "Qual a cor do cavalo branco de Napoleão?"
                 },
                 {
-                    "RDPergunta": "Ruim"
+                    "idPergunta": 2,
+                    "pergunta": "Quem descobriu a Amerca?"
                 },
                 {
-                    "RDPergunta": "Medio"
+                    "idPergunta": 3,
+                    "pergunta": "Quantos Hidrogênios existe na molécula da água?"
                 },
                 {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
+                    "idPergunta": 4,
+                    "pergunta": "A soma do quadrado dos catetos é?"
                 }
             ]
         },
         {
-            "idPergunta": 3,
-            "pergunta": "Quantos Hidrogênios existe na molécula da água?",
-            "radio": [
+            "idGrupoDePergunta": 3,
+            "nome": "Matemáticos",
+            "descricao": "Grupo de perguntas sobre conhecimento matemáticos",
+            "perguntas": [
                 {
-                    "RDPergunta": "Muito ruim"
+                    "idPergunta": 4,
+                    "pergunta": "A soma do quadrado dos catetos é?"
                 },
                 {
-                    "RDPergunta": "Ruim"
+                    "idPergunta": 10,
+                    "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?"
                 },
                 {
-                    "RDPergunta": "Medio"
+                    "idPergunta": 11,
+                    "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?"
                 },
                 {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 4,
-            "pergunta": "A soma do quadrado dos catetos é?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 5,
-            "pergunta": "Qual o seu nome?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 6,
-            "pergunta": "Quantos anos você tem?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 7,
-            "pergunta": "Você usa óculos?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 8,
-            "pergunta": "Qual sua altura?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 9,
-            "pergunta": "Qual sua cor preferida",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 10,
-            "pergunta": "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 11,
-            "pergunta": "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
-                }
-            ]
-        },
-        {
-            "idPergunta": 12,
-            "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?",
-            "radio": [
-                {
-                    "RDPergunta": "Muito ruim"
-                },
-                {
-                    "RDPergunta": "Ruim"
-                },
-                {
-                    "RDPergunta": "Medio"
-                },
-                {
-                    "RDPergunta": "Bom"
-                },
-                {
-                    "RDPergunta": "Muito Bom"
+                    "idPergunta": 12,
+                    "pergunta": "Se eu tenho R$ 20.000,00 e gastei R$3.300,00 quanto sobrou?"
                 }
             ]
         }

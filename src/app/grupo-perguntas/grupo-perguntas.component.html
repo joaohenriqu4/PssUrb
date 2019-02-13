@@ -1,0 +1,23 @@
+<br>
+<div class="container">
+  <form novalidate>
+    <div class="card">
+      <div class="col-md-25">
+        <div *ngFor="let perguntas of grupoPerguntas">
+          <div class="card">
+            <div class="card-header">
+              {{perguntas.nome}}
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">{{perguntas.descricao}}</p>
+              <a [routerLink]="['/form']" class="btn btn-primary">Responder Questinario</a>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <br>
+  </form>
+</div>

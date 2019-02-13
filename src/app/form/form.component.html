@@ -1,66 +1,33 @@
 <div class="container">
   <form novalidate>
     <div class="card">
-      <div class="col-md-25">
+      <div class="col-md-25" >
         <br>
-        <div *ngFor="let pergunta of perguntas">
-          <div class="card-header" class="text-center">
-            <h3>{{ pergunta.pergunta }}</h3>
+        <div *ngFor="let pergunt of perguntas">
+          <div class="card-header" class="text-center" style="border-top: 2px #696969 solid; margin-top: 0px; margin-bottom: 0px;">
+            <h3>{{ pergunt.perguntas[1].pergunta }}</h3>
             <br>
           </div>
+          <!------------------listando perguntas e botão de radio----------------------->
           <ul class="list-group list-group-flush">
             <div class="text-center">
-              <!---->
-              <li ng-repeat="pergunta of perguntas">
-                  <label>{{pergunta.radio[0].RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-                  <label>{{pergunta.radio.RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-                  <label>{{pergunta.radio.RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-                  <label>{{pergunta.radio[0].RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-                  <label>{{pergunta.radio[0].RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-                  <label>{{pergunta.radio[0].RDPergunta}}
-                      <input type="radio" ng-model="pergunta.radio[0].RDPergunta" name="name" 
-                      value="{{pergunta.radio[0].RDPergunta}}"/>
-                  </label>
-              </li>
-              <!--
-              <li class="list-group-item">
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" [id]="pergunta.radio[0].RDPergunta" [name]="pergunta.radio" class="custom-control-input">
-                  <label class="custom-control-label" for="pergunta.radio[0].RDPergunta">muito ruim</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" [id]="pergunta.radio[0].RDPergunta" [name]="pergunta.radio" class="custom-control-input">
-                  <label class="custom-control-label" for="pergunta.radio[0].RDPergunta">ruim</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" [id]="pergunta.radio[0].RDPergunta" [name]="pergunta.radio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline3">medio</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" [id]="customRadioInline4" [name]="pergunta.radio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline4">bom</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" id="customRadioInline5" [name]="pergunta.radio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline5">muito bom</label>
-                </div>
-              </li>
-              -->
+              <div class="btn-group btn-group-toggle background-color: white;" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked value="1"> 1
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option2" autocomplete="off" value="2"> 2
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off" value="3"> 3
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option4" autocomplete="off" value="4"> 4
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option5" autocomplete="off" value="5"> 5
+                </label>
+              </div>
             </div>
           </ul>
           <ul class="list-group list-group-flush"></ul>

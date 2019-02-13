@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { reject } from 'q';
 import { URL_API } from './app.api'
+//import { resolve } from 'dns';
 
 //import { reject } from 'q';
 //import { resolve } from 'dns';
@@ -41,7 +42,18 @@ export class OfertasService {
   //---------------PROJ BIDWEB---------------//
   public getPerguntas() {
     return new Promise((resolve, reject) => {
-      this.http.get(`${URL_API}perguntas`).subscribe((result) => {
+     // this.http.get(`${URL_API}grupodeperguntas?idGrupoDePergunta=${id}`).subscribe((result) => {
+      this.http.get(`${URL_API}grupodeperguntas?idGrupoDePergunta=1`).subscribe((result) => {
+        resolve(result);
+      }, (error) => {
+        reject(error);
+      });
+    });
+  }
+  //---------------PROJ BIDWEB---------------//
+  public getGrupoPerguntas() {
+    return new Promise((resolve, reject) => {
+      this.http.get(`${URL_API}grupodeperguntas`).subscribe((result) => {
         resolve(result);
       }, (error) => {
         reject(error);
@@ -58,7 +70,7 @@ export class OfertasService {
       });
     });
   }
-    //---------------------//
+  //---------------------//
   public getComoUsarOfertaPorID(id: number) {
     return new Promise((resolve, reject) => {
       this.http.get(`${URL_API}como-usar?id=${id}`).subscribe((result) => {
@@ -68,7 +80,7 @@ export class OfertasService {
       });
     });
   }
-    //---------------------//
+  //---------------------//
   public getOndeFicaOfertaPorID(id: number) {
     return new Promise((resolve, reject) => {
       this.http.get(`${URL_API}onde-fica?id=${id}`).subscribe((result) => {

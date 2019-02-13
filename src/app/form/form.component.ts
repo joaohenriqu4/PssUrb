@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OfertasService } from '../ofertas.service';
 import { Pergunta } from '../shared/pergunta.model';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-form',
@@ -12,18 +14,14 @@ export class FormComponent implements OnInit {
 
   public perguntas: Pergunta[]
 
-  frameworks = ['Muito Ruim','Ruim','Medio','Bom','Muito Bom'];
-
-  constructor(private ofertasService: OfertasService) { }
+  constructor(private route: ActivatedRoute, private ofertasService: OfertasService) { }
 
   ngOnInit() {
 
-    this.frameworks = null
-
     this.ofertasService.getPerguntas()
-    .then((perguntas: Pergunta[]) =>{
-      this.perguntas = perguntas
-      console.log()
+    .then((pergunta: Pergunta[]) =>{
+      this.perguntas = pergunta
+      console.log(pergunta)
     })
     .catch((param: any) =>{
     })
